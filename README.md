@@ -5,7 +5,7 @@ Consumer receives the product from producer and use erply.com api to add the pro
 
 # Packages Required
 
-use PHP consumer
+use PHP composer
 
 # Running
 
