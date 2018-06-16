@@ -9,20 +9,20 @@ use PHP consumer
 
 # Running
 
-REPLACE the values in consumer.php
-$api->clientCode = "CLIENT_CODE";
-$api->username = "USER_NAME";
-$api->password = "PASSWORD";
+REPLACE the values in consumer.php  
+$api->clientCode = "CLIENT_CODE";  
+$api->username = "USER_NAME";  
+$api->password = "PASSWORD";  
 
-commandline:
-go to the package directory
-composer update
+commandline:  
+go to the package directory  
+composer update  
 
-php Producer.php
-php Consumer.php
+php Producer.php  
+php Consumer.php  
 
 
 
 # Note
-1. Apache kafka must be configured and running before running the python script.
-2. kafka version = kafka_2.12-1.1.0
+1. Apache kafka must be configured and running before running the python script.  
+2. kafka version = kafka_2.12-1.1.0  
